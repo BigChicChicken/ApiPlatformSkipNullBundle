@@ -24,7 +24,7 @@ return [
 
 ```
 
-Configuration the bundle:
+Configure the bundle:
 
 ```yaml
 api_platform_skip_null:
