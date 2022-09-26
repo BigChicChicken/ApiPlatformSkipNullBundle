@@ -1,0 +1,35 @@
+{
+    "name": "bigchicchicken/api-platform-skip-null-bundle",
+    "type": "api-platform-bundle",
+    "description": "Bundle to globally define skip_null_values parameter on all entities for ApiPlatform",
+    "keywords": ["symfony", "api-patform", "skip_null"],
+    "homepage": "https://github.com/BigChicChicken/ApiPlatformSkipNullBundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ApiPlatformSkipNullBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ApiPlatformSkipNullBundle\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Florent TEDESCO"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "api-platform/core": "^3.0",
+        "symfony/dependency-injection": "^6.1",
+        "symfony/framework-bundle": "^6.1",
+        "symfony/http-kernel": "^6.1",
+        "symfony/yaml": "^6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "symfony/phpunit-bridge": "^6.1"
+    }
+}

@@ -1,0 +1,8 @@
+services:
+    api_platform.skip_null.resource.metadata_collection_factory:
+        public: true
+        class: ApiPlatformSkipNullBundle\ResourceMetadataCollectionFactory\SkipNullResourceMetadataCollectionFactory
+        decorates: api_platform.metadata.resource.metadata_collection_factory
+        arguments:
+            - '@.inner'
+            - '%api_platform_skip_null.enabled%'

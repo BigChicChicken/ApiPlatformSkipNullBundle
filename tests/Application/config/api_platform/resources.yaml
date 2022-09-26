@@ -1,0 +1,3 @@
+resources:
+  ApiPlatformSkipNullBundle\Tests\Application\Entity\Book:
+    provider: ApiPlatformSkipNullBundle\Tests\Application\Provider\BookProvider
