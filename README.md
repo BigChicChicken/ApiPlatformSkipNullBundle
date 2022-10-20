@@ -27,6 +27,8 @@ return [
 Configure the bundle:
 
 ```yaml
+# config/packages/api_platform_skip_null.yaml
+
 api_platform_skip_null:
     enabled: true|false # (Default: true)
 ```
