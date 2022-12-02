@@ -35,4 +35,4 @@ api_platform_skip_null:
 
 ## License
 
-This is completely free and released under the [MIT License](https://github.com/BigChicChicken/ApiPlatformSkipNullBundle/blob/main/LICENSE).
+This is completely free and released under the [MIT License](/LICENSE).
